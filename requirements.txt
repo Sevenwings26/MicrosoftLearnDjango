@@ -1,0 +1,5 @@
+django
+pylint
+autopep8
+mysqlclient==2.1.1
+mysql-connector-python

@@ -7,6 +7,7 @@ class Shelter(models.Model):
     def __str__(self):
         return self.name
 
+
 class Dog(models.Model):
     shelter = models.ForeignKey(Shelter, on_delete=models.PROTECT)
     name = models.CharField(max_length=200)
